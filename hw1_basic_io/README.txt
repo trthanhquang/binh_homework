@@ -1,6 +1,8 @@
 Q1. Write a program to simulate a basic calculator.
 First line is first input, second line is operator (+,-,*,/), third line is second output. For simplicity, assume the input, output are integer 
 
+hi
+
 Sample Input 1:
 3
 *
