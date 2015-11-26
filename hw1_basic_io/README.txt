@@ -28,7 +28,6 @@ Sample Input:
 1 * 3
 4 + 5
 8 - 9
-
 Sample Output:
 3
 9
@@ -37,31 +36,33 @@ Sample Output:
 Q3. min, max
 Given a list of N integers, find minimum and maximum in the list 
 First line of input is N, followed by N integers. 
-First output line is the min, second line is max
+Output line: min max
 
 Sample Input:
 10
-3 4 1 2 5 3 0 4 9 -1
-
+3 6 4 1 7 9 10 8 5 2
 Sample Output:
--1
-9
+1 10
 
-Q4. Top 5
-Given a list of N integers, find the 5 highest number in the list. 
-Print them in descending order.
+Q4. Top 2
+Given a list of N integers, find the 2 highest numbers in the list. 
+For simplicity, you can assume that all numbers in the list only appear once.
+Print the top 2 numbers in descending order.
 
 First line of input is N, followed by N integers.
-First output line is 5 integers in descending order
+First output line is 2 integers in descending order.
 
 Sample Input 1:
 10
 3 6 4 1 7 9 10 8 5 2
 Sample Output 1:
-10 9 8 7 6
+10 9
 
 Sample Input 2:
 20
 1 3 10 4 1000 100 200 300 201 123 120 232 124 634 999 141 101 2 5 6
 Sample Output 2:
-1000 999 634 300 141
+1000 999
+
+Q5. Top 3
+Simular to Q4, but find 3 highest numbers.
