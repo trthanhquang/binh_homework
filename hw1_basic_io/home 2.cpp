@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main ()
 {
-	int a , b ;
+	int a , b ,kt ;
 	char c ;
-	printf("input a ?\n");
+	
+	con : printf("input a ?\n");
 	scanf("%d",&a);
 	printf("input b ?\n");
 	scanf("%d",&b);
@@ -12,21 +13,23 @@ int main ()
 	scanf("%c",&c);
 	switch (c){
 		case '+' :
-		printf ("%d + %d = %d",a , b , a + b );
+		printf ("%d + %d = %d\n",a , b , a + b );
 		break ;
 		case '-' :
-		printf ("%d - %d = %d",a , b , a - b );
+		printf ("%d - %d = %d\n",a , b , a - b );
 		break;
 		case '*' :
-		printf ("%d * %d = %d",a , b , a * b );
+		printf ("%d * %d = %d\n",a , b , a * b );
 		break;
 		case '/' :
-		printf ("%d / %d = %f",a , b , double (a) / b);
+		printf ("%d / %d = %f\n",a , b , double (a) / b);
 		break;
 		default :
-		printf ("Error! operator is not correct");
-		break ;
-		
-		
+		printf ("Error! operator is not correct\n");
+		break ;	
 	}
+	printf ("Do you want continute calculator , 1 to continute , 0 to stop ?\n");
+	scanf("%d",&kt);
+	if (kt) goto con ;
+	
 }
