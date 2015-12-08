@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
     //Read how many element in the array
@@ -6,11 +7,14 @@ int main(){
     scanf("%d", &n);
 
     //Create an array of size N
-    int input_array[n];
+    int *input_array;
+    input_array = (int*)malloc(sizeof(int)*n);
 
     //Read from user input and save to each element of the array
     for(int i=0; i<n; i++){
-        scanf("%d", &input_array[i]);
+        int x;
+        scanf("%d",&x);
+        input_array[i]=x;
     }
 
     int max_value = input_array[0];
