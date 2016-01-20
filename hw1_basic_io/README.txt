@@ -66,3 +66,13 @@ Sample Output 2:
 
 Q5. Top 3
 Simular to Q4, but find 3 highest numbers.
+
+Q6. Modify code in Q5 to work with general case. Find k highest numbers. 
+Input format: first line is N and K, second line is N integers
+
+Sample input:
+10 5
+1 2 4 5 4 4 6 8 9 9
+Sample output:
+9 9 8 6 5
+

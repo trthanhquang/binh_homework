@@ -37,7 +37,7 @@ int main ()
 			m++;
 		}
 	}
-	for(int i=0;i<m;i++)array1[i]=array2[i];
+	for(int i=0;i<m;i++)array1[i]=array2[i]; //not necessary
 	for(int i=0;i<m;i++)
 	{
 		if(array2[i]>max2)
@@ -53,7 +53,7 @@ int main ()
 			k++;
 		}
 	}
-	for(int i=0;i<k;i++)array2[i]=array3[i];
+	for(int i=0;i<k;i++)array2[i]=array3[i]; //not necessary 
 	for(int i=0;i<k;i++)
 	{
 		if(array3[i]>max3)
